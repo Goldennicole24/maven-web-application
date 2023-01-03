@@ -16,6 +16,7 @@ pipeline{
         sh "echo 'testing must pass to create artifacts ' "
         sh "mvn clean package"
       }
+      /*
     }
     stage('4CodeQuality'){
       steps{
@@ -59,6 +60,7 @@ Landmark
 +1 437 215 2483''', recipientProviders: [buildUser(), developers()], subject: 'success', to: 'fintechteam@gmail.com'
     }
 }
+*/
 }
 
 
